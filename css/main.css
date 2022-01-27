@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+/* Color of the links BEFORE scroll */
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #fff
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+    color: #fff;
+}
+
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #cbbcb1;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(00, 00, 00, 0.50);
+}
+
+
+/*servicios*/
+
+.caja-servicios {
+    max-width: 900px;
+    border: solid 1px #d3d2d2;
+    -webkit-box-shadow: 0px 15px 29px 0px rgba(179, 177, 179, 1);
+    -moz-box-shadow: 0px 15px 29px 0px rgba(179, 177, 179, 1);
+    box-shadow: 0px 15px 29px 0px rgba(179, 177, 179, 1);
+    text-align: center;
+}
+
+.servicios {
+    border-right: solid 1px #d3d2d2;
+    padding: 2.5rem;
+    color: #004e72;
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    /* Firefox */
+    -webkit-transition: 0.5s ease;
+    /* Chrome - Safari */
+    -o-transition: 0.5s ease;
+    /* Opera */
+}
+
+.servicios:hover {
+    background-color: #0d6efd;
+    color: wheat;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    /* Firefox */
+    -webkit-transform: scale(1.1);
+    /* Chrome - Safari */
+    -o-transform: scale(1.1);
+    /* Opera */
+    -ms-transform: scale(1.1);
+    /* IE9 */
+}

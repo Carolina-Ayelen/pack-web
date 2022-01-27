@@ -2971,7 +2971,7 @@ textarea.form-control.is-invalid {
 
 .btn {
     display: inline-block;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
     color: #212529;
     text-align: center;
@@ -2983,10 +2983,10 @@ textarea.form-control.is-invalid {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 0.4rem 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.1rem;
+    transition: color 0.15s ease-in-out, background-color 0.35s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3618,14 +3618,15 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-light:hover {
-    color: #000;
+    color: #004e72;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
+    font-weight: 500;
 }
 
 .btn-check:focus+.btn-outline-light,
 .btn-outline-light:focus {
-    box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
 .btn-check:checked+.btn-outline-light,
@@ -3633,7 +3634,7 @@ fieldset:disabled .btn {
 .btn-outline-light:active,
 .btn-outline-light.active,
 .btn-outline-light.dropdown-toggle.show {
-    color: #000;
+    color: #004e72;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
 }
@@ -4808,12 +4809,12 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.55);
+    color: rgba(255, 255, 255, 0.77);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
