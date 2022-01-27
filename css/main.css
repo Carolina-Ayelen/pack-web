@@ -13,6 +13,16 @@ h2 {
     font-size: 3rem;
 }
 
+h3 {
+    display: block;
+    background: linear-gradient(to right, #004e72 0%, #016796 33%, #006b97 66%, #00c5cd 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 h6 {
     font-weight: 700;
     text-transform: uppercase;
@@ -64,7 +74,7 @@ h6 span {
 
 .servicios {
     border-right: solid 1px #d3d2d2;
-    padding: 1.5rem;
+    padding: 1rem;
     color: #004e72;
     transition: 0.5s ease;
     -moz-transition: 0.5s ease;
@@ -88,4 +98,8 @@ h6 span {
     -ms-transform: scale(1.1);
     /* IE9 */
     border-radius: 4px;
+}
+
+.seccion {
+    margin: 4rem 0;
 }
