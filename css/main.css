@@ -252,6 +252,8 @@ li.pricing__feature {
 }
 
 .tarifas {
-    background: linear-gradient(to right, #004e72 0%, #016796 33%, #006b97 66%, #00c5cd 100%);
+    background: url('../img/tarifas.jpg'), linear-gradient(to right, #004e72 0%, #016796 33%, #006b97 66%, #00c5cd 100%);
     padding: 4rem 0rem;
+    background-size: cover;
+    background-position: center;
 }
