@@ -283,3 +283,20 @@ footer {
 .copyrigth:hover {
     color: white
 }
+
+.banner {
+    background-image: linear-gradient(#006b97, #0167961c), url(../img/fondo3.jpg);
+    background-size: cover;
+    /* background-position: center background-image: url('../img/fondo3.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 6rem;
+}
+
+.banner p {
+    color: #ffffffc4;
+    font-size: 1.3rem;
+}
