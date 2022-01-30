@@ -72,7 +72,7 @@ h6 span {
 
 .mask-custom {
     backdrop-filter: blur(5px);
-    background-color: rgba(00, 00, 00, 0.50);
+    background-color: rgba(16, 57, 85, 0.85);
 }
 
 
@@ -256,4 +256,30 @@ li.pricing__feature {
     padding: 4rem 0rem;
     background-size: cover;
     background-position: center;
+}
+
+.icono-contact {
+    color: #004e72;
+    font-size: 1.4rem;
+}
+
+footer {
+    padding: 2rem 0rem;
+    background: #004e72;
+}
+
+.icono-footer {
+    color: #ffffffc4;
+    font-size: 1.3rem;
+}
+
+.copyrigth {
+    color: #ffffffc4;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.icono-footer:hover,
+.copyrigth:hover {
+    color: white
 }
