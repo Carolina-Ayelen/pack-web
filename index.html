@@ -24,9 +24,7 @@
     <!--script-->
     <script src="js/smooth-scroll.min.js"></script>
     <style>
-        .navbar-dark {
-            transition: all 0.5s ease;
-        }
+
     </style>
 </head>
 
@@ -35,7 +33,7 @@
         <!-- Navbar -->
         <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top shadow-0">
             <div class="container">
-                <img src="img/iso2.png" alt="logo" class="img-fluid" style="max-width: 60px;">
+                <img src="img/iso2.png" alt="logo" class="img-fluid logo" style="max-width: 60px;">
                 <a class="navbar-brand" href="#!"><span style="color: #fff;">Pack Express</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,29 +41,32 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Nosotros</a>
+                            <a class="nav-link" href="#about">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Servicios</a>
+                            <a class="nav-link" href="#servicios">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Tarifas</a>
+                            <a class="nav-link" href="#tarifas">Tarifas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Contacto</a>
+                            <a class="nav-link" href="#faqs">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav d-flex flex-row">
                         <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="#!">
+                            <a class="nav-link" target="_blank" href="https://www.facebook.com/people/Pack-Express-Uy/100064257575210/">
                                 <i class="bi bi-facebook"></i>
                             </a>
                         </li>
                         <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="#!">
+                            <a class="nav-link" target="_blank" href="https://www.instagram.com/packexpressuruguay/">
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </li>
@@ -89,11 +90,11 @@
                     <div class="carousel-item active" style="background-color:#004e72">
                         <img src="img/fondo7.jpg" class="d-block w-100" alt="fondo envio" style="opacity: 0.7;">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Bienvenido a Pack Express</h2>
-                            <h5>UNA SOLUCIÓN PARA SU ENCOMIENDA</h5>
+                            <h2 class="wow animate fadeInUp" data-wow-duration="1s">Bienvenido a Pack Express</h2>
+                            <h5 class="wow animate fadeIn" data-wow-delay="0.5s">UNA SOLUCIÓN PARA SU ENCOMIENDA</h5>
                             <br>
                             <!--  <p>Some representative placeholder content for the first slide.</p> -->
-                            <button type="button" class="btn btn-outline-light">Ver más</button>
+                            <a href="#servicios"><button type="button" class="btn btn-outline-light wow animate fadeInUp"> Ver más</button></a>
                         </div>
                     </div>
                     <!--
@@ -118,126 +119,126 @@
     </header>
     <main>
         <!--servicios-->
-        <section class="seccion" style="background-color: #f4f8f7;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" style="text-align: center;">
+        <section class="seccion wow animate fadeInUp" data-wow-delay="0.5s" style=" background-color: #f4f8f7; " id="servicios ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 " style="text-align: center; ">
                         <h3>Servicios</h3>
                         <br>
                     </div>
                 </div>
             </div>
-            <div class="container caja-servicios">
-                <div class="row">
-                    <div class="col-md-3 servicios">
-                        <img src="img/paqueteria.png" alt="paquetes" class="img-fluid" style="max-width: 100px; margin-bottom: 1rem;">
+            <div class="container caja-servicios ">
+                <div class="row ">
+                    <div class="col-md-3 servicios ">
+                        <img src="img/paqueteria.png " alt="paquetes " class="img-fluid " style="max-width: 100px; margin-bottom: 1rem; ">
                         <h6>Envío de paquetería <span>(Courier y Equipaje no acompañado)</span></h6>
                     </div>
-                    <div class="col-md-3 servicios">
-                        <img src="img/doc.png" alt="documentos" class="img-fluid iconos" style="max-width: 80px; margin-bottom: 1rem;">
+                    <div class="col-md-3 servicios ">
+                        <img src="img/doc.png " alt="documentos " class="img-fluid iconos " style="max-width: 80px; margin-bottom: 1rem; ">
                         <h6>Envío de documentos</h6>
                     </div>
-                    <div class="col-md-3 servicios">
-                        <img src="img/dinero.png" alt="dinero" class="img-fluid iconos" style="max-width: 80px; margin-bottom: 1rem;">
+                    <div class="col-md-3 servicios ">
+                        <img src="img/dinero.png " alt="dinero " class="img-fluid iconos " style="max-width: 80px; margin-bottom: 1rem; ">
                         <h6>Envío de dinero</h6>
                     </div>
-                    <div class="col-md-3 servicios">
-                        <img src="img/velero.png" alt="velero" class="img-fluid iconos" style="max-width: 80px; margin-bottom: 1rem;">
+                    <div class="col-md-3 servicios ">
+                        <img src="img/velero.png " alt="velero " class="img-fluid iconos " style="max-width: 80px; margin-bottom: 1rem; ">
                         <h6>Recargas a Moviles y Nautas</h6>
                     </div>
                 </div>
             </div>
         </section>
         <!--Nosotros-->
-        <section class="seccion">
-            <div class="container about">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/5803487.jpg" alt="" class="img-fluid" style="max-width: 400px;">
+        <section class="seccion wow animate fadeOutUp" data-wow-delay="3s" data-wow-duration="2s" id="about ">
+            <div class="container about ">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <img src="img/about.jpg " alt=" " class="img-fluid " style="max-width: 400px; ">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <h3>¿Por qué elegir la agencia Pack Express?</h3>
                         <br>
                         <p>No faltó el momento en que tuvimos la necesidad de hacer un envío a nuestras familias y fue ese el instante cuando comprendimos que tal vez existían muchas empresas de servicio postal pero ninguna nos brindaba todos los beneficios
                             que nosotros necesitábamos como cliente. <br>Fue por ello que encontramos un nicho de oportunidad y nos planteamos ofrecer este servicio poniéndonos en tu lugar. Porque contamos con las herramientas legales y logísticas para
                             hacerle llegar a sus familiares la ayuda que usted les quiere proporcionar.<br> También manejamos un precio asequible para toda nuestra comunidad y sobradamente competitivo respecto a empresas de este tipo.</p>
-                        <button type="button" class="btn btn-outline-primary">Ver más</button>
+                        <button type="button " class="btn btn-outline-primary ">Conozca más</button>
                     </div>
                 </div>
             </div>
         </section>
         <!--seccion tarifas-->
-        <section class="tarifas">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" style="text-align: center;">
-                        <h3 style="color: white;">Tarifas</h3>
+        <section class="tarifas " id="tarifas ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 " style="text-align: center; ">
+                        <h3 style="color: white; ">Tarifas</h3>
                         <br>
                     </div>
                 </div>
             </div>
-            <div class="pricing pricing--sonam">
-                <div class="pricing__item">
+            <div class="pricing pricing--sonam ">
+                <div class="pricing__item  wow animate fadeInLeft" data-wow-delay="0.5s">
                     <h5 class="pricing__title">Modalidad-1</h5>
-                    <div class="pricing__price"><span class="pricing__currency"></span>Envío Regular de MVD, Uruguay a otra persona en Cuba
+                    <div class="pricing__price "><span class="pricing__currency "></span>Envío Regular de MVD, Uruguay a otra persona en Cuba
                     </div>
-                    <ul class="pricing__feature-list">
-                        <li class="pricing__feature">Envíos hasta 1.5 Kg con Valor de Mercadería hasta $ 30 USD declarado.
+                    <ul class="pricing__feature-list ">
+                        <li class="pricing__feature ">Envíos hasta 1.5 Kg con Valor de Mercadería hasta $ 30 USD declarado.
                         </li>
-                        <li class="pricing__feature">Libre de Arancel Aduanal en Cuba. Entrega a Puerta con EMCI (Empresa de Mensajería y Cambio Internacional). Demora en Arribo a Cuba: 1 Semana.
+                        <li class="pricing__feature ">Libre de Arancel Aduanal en Cuba. Entrega a Puerta con EMCI (Empresa de Mensajería y Cambio Internacional). Demora en Arribo a Cuba: 1 Semana.
                         </li>
-                        <li class="pricing__feature">SRequisito: Copia de Cédula de Identidad ó Pasaporte.
+                        <li class="pricing__feature ">SRequisito: Copia de Cédula de Identidad ó Pasaporte.
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-outline-primary">Más Información</button>
+                    <button type="button " class="btn btn-outline-primary ">Más Información</button>
                 </div>
-                <div class="pricing__item">
-                    <h5 class="pricing__title">Modalidad-2</h5>
-                    <div class="pricing__price"><span class="pricing__currency"></span>Envío Regular de MVD, Uruguay a otra persona en Cuba
+                <div class="pricing__item wow animate fadeInUp" data-wow-delay="0.5s">
+                    <h5 class="pricing__title ">Modalidad-2</h5>
+                    <div class="pricing__price "><span class="pricing__currency "></span>Envío Regular de MVD, Uruguay a otra persona en Cuba
                     </div>
-                    <ul class="pricing__feature-list">
-                        <li class="pricing__feature">Envíos hasta 10 Kg Máximo con Valor de Mercadería hasta $ 200 USD declarado.
+                    <ul class="pricing__feature-list ">
+                        <li class="pricing__feature ">Envíos hasta 10 Kg Máximo con Valor de Mercadería hasta $ 200 USD declarado.
                         </li>
-                        <li class="pricing__feature">Paga Impuesto de Arancel Aduanal en Cuba: Resolución No. 307/2020 (GOC-2020-874-EX75) de la Aduana General de la República de Cuba.
+                        <li class="pricing__feature ">Paga Impuesto de Arancel Aduanal en Cuba: Resolución No. 307/2020 (GOC-2020-874-EX75) de la Aduana General de la República de Cuba.
                         </li>
-                        <li class="pricing__feature">Entrega a Puerta con EMCI (Empresa de Mensajería y Cambio Internacional). Demora en Arribo a Cuba: 1 Semana.
+                        <li class="pricing__feature ">Entrega a Puerta con EMCI (Empresa de Mensajería y Cambio Internacional). Demora en Arribo a Cuba: 1 Semana.
                         </li>
-                        <li class="pricing__feature">Requisito: Copia de Cédula de Identidad ó Pasaporte.
+                        <li class="pricing__feature ">Requisito: Copia de Cédula de Identidad ó Pasaporte.
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-outline-primary">Más Información</button>
+                    <button type="button " class="btn btn-outline-primary ">Más Información</button>
                 </div>
-                <div class="pricing__item">
-                    <h5 class="pricing__title">Modalidad-3</h5>
-                    <div class="pricing__price"><span class="pricing__currency"></span>Equipaje No Acompañado: Sólo para el que viaja a Cuba, con boleto aéreo y quieran completar los 120 Kg autorizados entrar a Cuba una vez al año.
+                <div class="pricing__item wow animate fadeInRight" data-wow-delay="0.5s">
+                    <h5 class="pricing__title ">Modalidad-3</h5>
+                    <div class="pricing__price "><span class="pricing__currency "></span>Equipaje No Acompañado: Sólo para el que viaja a Cuba, con boleto aéreo y quieran completar los 120 Kg autorizados entrar a Cuba una vez al año.
                     </div>
-                    <ul class="pricing__feature-list">
-                        <li class="pricing__feature">Envíos con Tarifa Negociada: $ 350 USD hasta 40 Kg
+                    <ul class="pricing__feature-list ">
+                        <li class="pricing__feature ">Envíos con Tarifa Negociada: $ 350 USD hasta 40 Kg
                         </li>
-                        <li class="pricing__feature">KG Adicional: $ 9 USD
+                        <li class="pricing__feature ">KG Adicional: $ 9 USD
                         </li>
-                        <li class="pricing__feature">Despacho Aduanero en Uruguay: $ 100 USD
+                        <li class="pricing__feature ">Despacho Aduanero en Uruguay: $ 100 USD
                         </li>
-                        <li class="pricing__feature">Valor Máximo de Mercadería: $ 950 USD declarado
+                        <li class="pricing__feature ">Valor Máximo de Mercadería: $ 950 USD declarado
                         </li>
-                        <li class="pricing__feature">IRequisitos: Copia de Cédula de Identidad ó Pasaporte + Certificado de Vecindad (Constancia de Domicilio)
+                        <li class="pricing__feature ">IRequisitos: Copia de Cédula de Identidad ó Pasaporte + Certificado de Vecindad (Constancia de Domicilio)
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-outline-primary">Más Información</button>
+                    <button type="button " class="btn btn-outline-primary ">Más Información</button>
                 </div>
             </div>
         </section>
         <!--seccion faqs-->
-        <section class="seccion ">
+        <section class="seccion" id="faqs ">
             <div class="container ">
                 <div class="row ">
-                    <div class="col-md-12 ">
+                    <div class="col-md-12">
                         <h3>FAQs</h3>
                         <br>
                     </div>
                 </div>
-                <div class="row " style="align-items: center; ">
-                    <div class="col-md-6 ">
+                <div class="row" style="align-items: center; ">
+                    <div class="col-md-6 wow animate fadeOutLeft" data-wow-delay="3s" data-wow-duration="2s">
                         <h4>Garantias</h4>
                         <p>Nosotros nos responsabilizamos de su Pack una vez esté en nuestras manos hasta su arribo al país de destino. En caso de pérdida o daños, se procederá a la devolución por el valor de la mercancía y el costo de envío. <br>El beneficiario
                             puede ir a levantar su(s) paquete(s) a los almacenes de AeroVaradero sin costo alguno.
@@ -297,70 +298,70 @@
                             <li><a href="https://www.gacetaoficial.gob.cu/es/resolucion-307-de-2020-de-aduana-general-de-la-republica ">Resolución 307 de 2020 de Aduana General de la República de Cuba</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6 ">
-                        <img src="img/20945971.jpg " alt=" " class="img-fluid ">
+                    <div class="col-md-6 wow animate fadeOutRight" data-wow-delay="3s" data-wow-duration="2s">
+                        <img src="img/faqs.jpg " alt=" " class="img-fluid ">
                     </div>
                 </div>
             </div>
         </section>
         <!--seccion banner-->
-        <section class="seccion banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+        <section class="seccion banner ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 ">
                         <h2>Envíos al exterior al mejor precio</h2>
-                        <p>Conozca nuestros servicios de excelencia</p>
-                        <button type="button" class="btn btn-secondary">Servicios</button>
+                        <p>¡Conozca nuestros servicios de excelencia!</p>
+                        <a href="#tarifas "><button type="button " class="btn btn-secondary ">Tarifario</button></a>
                     </div>
                 </div>
             </div>
         </section>
         <!--contacto-->
-        <section class="seccion">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+        <section class="seccion " id="contacto ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6 ">
                         <h3>Contacto</h3>
                         <br>
                         <p>Envie su mensaje y pronto nos pondremos en contacto</p>
-                        <form action="">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+                        <form action=" ">
+                            <div class="mb-3 ">
+                                <label for="exampleFormControlInput1 " class="form-label ">Nombre</label>
+                                <input type="text " name="nombre " class="form-control " id="exampleFormControlInput1 " placeholder="Ingrese su nombre ">
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <div class="mb-3 ">
+                                <label for="exampleFormControlInput1 " class="form-label ">Email</label>
+                                <input type="email " name="email " class="form-control " id="exampleFormControlInput1 " placeholder="name@example.com ">
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="mb-3 ">
+                                <label for="exampleFormControlTextarea1 " class="form-label ">Mensaje</label>
+                                <textarea class="form-control " name="mensaje " id="exampleFormControlTextarea1 " rows="3 "></textarea>
                             </div>
-                            <button type="button" class="btn btn-primary">Enviar</button>
+                            <button type="button " class="btn btn-primary ">Enviar</button>
                         </form>
                     </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <img src="img/mensaje.jpg" class="img-fluid" style="max-width:400px" alt="">
+                    <div class="col-md-6 wow animate fadeInRight" style="text-align: center; ">
+                        <img src="img/mensaje.jpg " class="img-fluid " style="max-width:400px " alt=" ">
                         <br>
-                        <i class="bi bi-whatsapp icono-contact"></i> Tel: (+598) 2902 7227
+                        <i class="bi bi-whatsapp icono-contact "></i> Tel: (+598) 2902 7227
                         <br>
-                        <i class="bi bi-envelope-fill icono-contact"></i> packexpress2021@gmail.com
+                        <i class="bi bi-envelope-fill icono-contact "></i> packexpress2021@gmail.com
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="row">
+        <div class="container ">
+            <div class="row ">
                 <div class="col-md-6">
-                    <img src="img/iso2.png" alt="logo pack express" class="img-fluid" style="max-width: 70px;">
-                    <a class="navbar-brand" href="#"><span style="color: #fff;">Pack Express</span></a>
+                    <img src="img/iso2.png " alt="logo pack express " class="img-fluid " style="max-width: 70px; ">
+                    <a class="navbar-brand " href="# "><span style="color: #fff; ">Pack Express</span></a>
                 </div>
-                <div class="col-md-6 " style="text-align: right;">
-                    <a href="#"> <i class="bi bi-facebook icono-footer"></i></a>
-                    <a href="#"> <i class="bi bi-instagram icono-footer"></i></a>
-                    <p> <a href="#" class="copyrigth">Terminos y condiciones</a> </p>
+                <div class="col-md-6 " style="text-align: right; ">
+                    <a href="https://www.facebook.com/people/Pack-Express-Uy/100064257575210/ " target="_blank "> <i class="bi bi-facebook icono-footer "></i></a>
+                    <a href="https://www.instagram.com/packexpressuruguay/ "> <i class="bi bi-instagram icono-footer " target="_blank "></i></a>
+                    <p> <a href="# " class="copyrigth ">Terminos y condiciones</a> </p>
                 </div>
             </div>
         </div>
