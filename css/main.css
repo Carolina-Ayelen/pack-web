@@ -342,3 +342,10 @@ footer {
     background-position: center;
     height: 350px;
 }
+
+.redes-flotantes {
+    position: fixed;
+    right: 8px;
+    top: 75%;
+    z-index: 20;
+}
