@@ -23,9 +23,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!--script-->
     <script src="js/smooth-scroll.min.js"></script>
+    <style>
+
+    </style>
 </head>
 
-<body>
+<body id="home">
     <header>
         <!-- Navbar -->
         <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top shadow-0">
@@ -41,26 +44,21 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#servicios">Servicios</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="index.html#tarifas" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Tarifas
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="envio-courier.html">Paqueteria Courier: CUBA</a></li>
-                                <li><a class="dropdown-item" href="envio-no-acompañado.html">Equipaje no acompañado: CUBA</a></li>
-                            </ul>
+                            <a class="nav-link" href="#servicios">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#faqs">FAQs</a>
+                            <a class="nav-link" href="#tarifas">Tarifas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#about">Nosotros</a>
+                            <a class="nav-link" href="#faqs">FAQs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#contacto">Contacto</a>
+                            <a class="nav-link" href="#about">Nosotros</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <button type="button" class="btn btn-secondary" onclick="window.open('declaracion-jurada.xlsx');">Descargar Declaración Jurada</button>
                     </ul>
                     <ul class="navbar-nav d-flex flex-row">
                         <li class="nav-item me-3 me-lg-0">
@@ -74,7 +72,7 @@
                             </a>
                         </li>
                         <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="#!">
+                            <a class="nav-link" target="_blank" href="https://mailito: packexpress2021@gmail.com">
                                 <i class="bi bi-envelope-fill"></i>
                             </a>
                         </li>
@@ -82,48 +80,83 @@
                 </div>
             </div>
         </nav>
-        <!-- Navbar -->
+        <!-- hero -->
+        <section class="hero-dos">
+            <div>
+                <h2>Terminos y Condiciones</h2>
+            </div>
+        </section>
     </header>
     <main>
-        <section class="hero-dos">
+        <section>
+            <br>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Envío de Equipaje No Acompañado: CUBA</h2>
+                        <h3>Aviso de privacidad</h3>
+                        <p>Pack Express Uruguay S.A.S le complace que haya visitado nuestro sitio web y que esté interesado en nuestra compañía y nuestros servicios. Es importante para nosotros proteger sus datos personales durante todo el proceso comercial.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="seccion">
+        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>Información Importante</h3>
-                        <br>
+                        <h3>Sus comentarios</h3>
+                        <p>Pack Express Uruguay S.A.S desea recibir sus comentarios y aprecia sus ideas y sugerencias, sin embargo, no es posible responder a todos los comentarios de forma individual, así que podrá utilizar cualquier tipo de información
+                            que envíe y podrá actuar de acuerdo con ella de forma libre.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>Solo para el que viaja a Cuba, con boleto aéreo y quieran completar los 120 kg autorizados entrar a Cuba una vez al año.</p>
+                    <div class="col-md-12">
+                        <h3>Aviso legal</h3>
                         <ul>
-                            <li>Tarifa: $ 350 Dólares hasta 40 kg. </li>
-                            <li>Kg Adicional: $ 9 Dólares por cada kilo.</li>
-                            <li>Despacho Aduanero en Uruguay: $ 100 Dólares (no importa el peso total).</li>
-                            <li>Valor Máximo de Mercadería: $ 950 Dólares declarado.</li>
-                        </ul>
-                        <br>
-                        <h4>Seguimiento de envío:</h4>
-                        <ul class="links ">
-                            <li><a href="https://www.copa.smartkargo.com/">Seguir Aquí</a></li>
+                            <li>Nombre de la Compañía: <span>Pack Express Uruguay S.A.S</span></li>
+                            <li>Representado por Gerente/Administrador: <span></span>Lic. Yusniel Rojas Castro</li>
+                            <li>No. de Registro Comercial: <span>RUT. 218883410015</span></li>
+                            <li>Dirección: <span></span>Calle Carlos Quijano No. 1258 esq Soriano, Centro, Montevideo, Uruguay.</li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <p>Obligatorio <strong>traer al despacho del equipaje</strong> Cédula de Identidad Uruguaya + Pasaporte Cubano + Constancia de Domicilio (emitida por Seccion Policial).</p>
-                        <p>Los envíos NO pueden ser en Maletas, Gusanos, Valijas, etc. <strong>Obligatorio en Cajas</strong>. No importa la cantidad de cajas, la factura será por la sumatoria del total del peso en Kg o peso volumétrico (Alto x Ancho x Largo
-                            /5000).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Terminos y condiciones de uso</h3>
+                        <p>En esta página web encontrará una versión de referencia de los términos y condiciones del sitio web de Pack Express Uruguay S.A.S</p>
+                        <h4>Derechos de autor</h4>
+                        <p>Los derechos de autor de esta publicación son propiedad de Pack Express Uruguay S.A.S.</p>
+                        <h4>Autorización para la reproducción</h4>
+                        <p>Cualquier persona podrá reproducir cualquier parte de los materiales de esta página web, siempre y cuando cumpla con las siguientes condiciones:</p>
+                        <ul>
+                            <li>El material solo puede ser utilizado para propósitos informativos y sin fines de lucro.</li>
+                            <li>El material no puede ser modificado de ninguna forma.</li>
+                            <li>Se prohíbe la copia no autorizada de las marcas registradas de Pack Express Uruguay S.A.S.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Conocimiento sobre fraudes</h3>
+                        <h4>Uso fraudulento de la marca</h4>
+                        <p>Pack Express Uruguay S.A.S no se responsabiliza con el uso no autorizado del nombre y la marca, en algún intento de estafa a compradores de Internet, mediante comunicaciones e imágenes por correo electrónico que, a simple vista,
+                            parezcan ser enviados por Pack Express Uruguay S.A.S. En la mayoría de los casos, las comunicaciones se relacionan con la venta de bienes a clientes por Internet, en los que se puede solicitar un pago antes de la entrega de
+                            dichos bienes.</p>
+                        <p>Tenga presente que Pack Express Uruguay S.A.S no solicita pagos de esta manera, solo recibe dinero por gastos de envío oficiales de la empresa. Este aviso de seguridad no afecta la obligación del consignatario de pagar el envío,
+                            los trámites aduaneros, los impuestos u otros cargos similares que se cobran adecuadamente al momento de la entrega.
                         </p>
-                        <p>La única empresa autorizada en Cuba a recepcionar Equipaje No Acompañado es Aerovaradero S.A. <strong> Recomendamos </strong>gestionar una vez arriben a Cuba, en el mismo aeropuerto, ante las oficinas de aerovaradero como será
-                            la entrega de sus equipajes (a domicilio ó en oficinas de la empresa).</p>
+                        <p>Pack Express Uruguay S.A.S no acepta ninguna responsabilidad por costos, cargos o pagos realizados de manera incorrecta producto de una actividad fraudulenta.</p>
                     </div>
                 </div>
             </div>
@@ -132,9 +165,9 @@
     <footer>
         <div class="container ">
             <div class="row ">
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <img src="img/iso2.png " alt="logo pack express " class="img-fluid " style="max-width: 70px; ">
-                    <a class="navbar-brand " href="# "><span style="color: #fff; ">Pack Express</span></a>
+                    <a class="navbar-brand " href="index.html "><span style="color: #fff; ">Pack Express</span></a>
                 </div>
                 <div class="col-md-6 " style="text-align: right; ">
                     <a href="https://www.facebook.com/people/Pack-Express-Uy/100064257575210/ " target="_blank "> <i class="bi bi-facebook icono-footer "></i></a>
@@ -152,7 +185,7 @@
         new WOW().init();
     </script>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="# "]');
     </script>
     <script>
         $(window).scroll(function() {

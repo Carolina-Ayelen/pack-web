@@ -78,7 +78,7 @@ h6 span {
 .hero-index {
     position: absolute;
     left: 8%;
-    top: 30%;
+    top: 25%;
     color: white;
     max-width: 50%;
 }
@@ -325,7 +325,8 @@ footer {
 }
 
 .hero h2,
-.hero-dos h2 {
+.hero-dos h2,
+.hero-tres h2 {
     position: absolute;
     right: 15%;
     bottom: 26rem;
@@ -343,9 +344,76 @@ footer {
     height: 350px;
 }
 
+.hero-tres {
+    background-image: linear-gradient(#1a1b1bc7, #009de61f), url(../img/fondo7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
 .redes-flotantes {
     position: fixed;
     right: 8px;
     top: 75%;
     z-index: 20;
+}
+
+.hero-home {
+    background-image: url('../img/heroindex.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-home {
+        background-image: url('../img/heroindex.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .navbar-dark {
+        background-color: #23282dd9
+    }
+    .hero h2 {
+        top: 8rem;
+        font-size: 2em;
+    }
+    .hero-dos h2 {
+        top: 8rem;
+        font-size: 2em;
+    }
+}
+
+
+}
+.redes-flotantes {
+    position: fixed;
+    right: 8px;
+    top: 75%;
+    z-index: 20;
+}
+.redes-flotantes img {
+    float: right;
+    clear: right;
+    margin: 5px;
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.redes-flotantes img:hover {
+    -moz-transform: scale(1.1) rotate(6deg);
+    -webkit-transform: scale(1.1) rotate(6deg);
+    -o-transform: scale(1.1) rotate(6deg);
+    -ms-transform: scale(1.1) rotate(6deg);
+    transform: scale(1.1) rotate(6deg);
 }
