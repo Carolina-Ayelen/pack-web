@@ -368,7 +368,7 @@ footer {
 @media screen and (max-width: 768px) {
     .hero-home {
         background-image: url('../img/heroindex.jpg');
-        background-position: center;
+        background-position: -40rem 1rem;
         background-size: cover;
         height: 100vh;
     }
